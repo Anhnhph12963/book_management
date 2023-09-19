@@ -20,6 +20,7 @@ import com.example.asiment_du_an_mau.dao.ThuThuDAO;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class LogInActivity extends AppCompatActivity {
     EditText tv_name;
@@ -30,6 +31,8 @@ public class LogInActivity extends AppCompatActivity {
     CheckBox checkBox;
     String strUser, strPass;
     ViewFlipper viewFlipper;
+
+    Calendar calendar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
